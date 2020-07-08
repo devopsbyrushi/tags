@@ -1,0 +1,32 @@
+<tomcat-users>
+<role rolename="manager-gui"/>
+<user username="tomcat" password="Tomcat" roles="manager-gui, manager-script, manager-admin, manager-status"/>
+</tomcat-users>
+
+
+
+
+<role rolename="manager-gui"/>
+<user username="tomcat" password="tomcat" roles="manager-gui"/>
+
+********************************************************************************************
+<tomcat-users>
+<role rolename="manager-gui"/>
+<user username="tomcat" password="Tomcat" roles="manager-gui, manager-script, manager-admin, manager-status"/>
+</tomcat-users>
+
+
+
+
+sudo cp /home/services/Rishi-project/target/cast-1.0-SNAPSHOT.war /opt/tomcat7/webapps/
+
+source path: /home/services/Rishi-project/target/cast-1.0-SNAPSHOT.war
+
+destiantion path : /opt/tomcat7/webapps/
+
+
+
+
+
+
+
